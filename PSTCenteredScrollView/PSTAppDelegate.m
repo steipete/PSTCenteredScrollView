@@ -19,8 +19,8 @@
     UITabBarController *tabController = [[UITabBarController alloc] initWithNibName:nil bundle:nil];
 
     tabController.viewControllers = @[[[PSTViewController alloc] initWithScrollViewClass:PSTLayoutSubviewCenteredScrollView.class],
-                                      [[PSTViewController alloc] initWithScrollViewClass:PSTEdgeInsetCenteredScrollView.class],
-                                      [[PSTViewController alloc] initWithScrollViewClass:PSTContentOffsetCenteredScrollView.class]];
+                                      [[PSTViewController alloc] initWithScrollViewClass:PSTContentOffsetCenteredScrollView.class],
+                                      [[PSTViewController alloc] initWithScrollViewClass:PSTEdgeInsetCenteredScrollView.class]];
 
     self.window.rootViewController = tabController;
     [self.window makeKeyAndVisible];
