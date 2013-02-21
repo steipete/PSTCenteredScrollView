@@ -1,5 +1,5 @@
 //
-//  PSTEdgeInsetCenteredScrollView.h
+//  PSTContentInsetCenteredScrollView.h
 //  PSTCenteredScrollView
 //
 //  Created by Peter Steinberger on 2/21/13.
@@ -8,6 +8,6 @@
 
 #import "PSTCenteredScrollView.h"
 
-@interface PSTEdgeInsetCenteredScrollView : PSTCenteredScrollView
+@interface PSTContentInsetCenteredScrollView : PSTCenteredScrollView
 
 @end

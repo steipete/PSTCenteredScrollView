@@ -19,7 +19,7 @@
 		7832D68416D60306006EAA5D /* PSTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7832D68316D60306006EAA5D /* PSTViewController.m */; };
 		7832D69216D60327006EAA5D /* PSTCenteredScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7832D69116D60327006EAA5D /* PSTCenteredScrollView.m */; };
 		785C581F16D62AC300196B38 /* PSTLayoutSubviewCenteredScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 785C581E16D62AC300196B38 /* PSTLayoutSubviewCenteredScrollView.m */; };
-		785C582216D62B2400196B38 /* PSTEdgeInsetCenteredScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 785C582116D62B2400196B38 /* PSTEdgeInsetCenteredScrollView.m */; };
+		785C582216D62B2400196B38 /* PSTContentInsetCenteredScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 785C582116D62B2400196B38 /* PSTContentInsetCenteredScrollView.m */; };
 		785C582516D635E700196B38 /* PSTContentOffsetCenteredScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 785C582416D635E700196B38 /* PSTContentOffsetCenteredScrollView.m */; };
 /* End PBXBuildFile section */
 
@@ -43,8 +43,8 @@
 		7832D69116D60327006EAA5D /* PSTCenteredScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSTCenteredScrollView.m; sourceTree = "<group>"; };
 		785C581D16D62AC300196B38 /* PSTLayoutSubviewCenteredScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSTLayoutSubviewCenteredScrollView.h; sourceTree = "<group>"; };
 		785C581E16D62AC300196B38 /* PSTLayoutSubviewCenteredScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSTLayoutSubviewCenteredScrollView.m; sourceTree = "<group>"; };
-		785C582016D62B2400196B38 /* PSTEdgeInsetCenteredScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSTEdgeInsetCenteredScrollView.h; sourceTree = "<group>"; };
-		785C582116D62B2400196B38 /* PSTEdgeInsetCenteredScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSTEdgeInsetCenteredScrollView.m; sourceTree = "<group>"; };
+		785C582016D62B2400196B38 /* PSTContentInsetCenteredScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSTContentInsetCenteredScrollView.h; sourceTree = "<group>"; };
+		785C582116D62B2400196B38 /* PSTContentInsetCenteredScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSTContentInsetCenteredScrollView.m; sourceTree = "<group>"; };
 		785C582316D635E600196B38 /* PSTContentOffsetCenteredScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSTContentOffsetCenteredScrollView.h; sourceTree = "<group>"; };
 		785C582416D635E700196B38 /* PSTContentOffsetCenteredScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSTContentOffsetCenteredScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -99,8 +99,8 @@
 				7832D68316D60306006EAA5D /* PSTViewController.m */,
 				7832D69016D60327006EAA5D /* PSTCenteredScrollView.h */,
 				7832D69116D60327006EAA5D /* PSTCenteredScrollView.m */,
-				785C582016D62B2400196B38 /* PSTEdgeInsetCenteredScrollView.h */,
-				785C582116D62B2400196B38 /* PSTEdgeInsetCenteredScrollView.m */,
+				785C582016D62B2400196B38 /* PSTContentInsetCenteredScrollView.h */,
+				785C582116D62B2400196B38 /* PSTContentInsetCenteredScrollView.m */,
 				785C581D16D62AC300196B38 /* PSTLayoutSubviewCenteredScrollView.h */,
 				785C581E16D62AC300196B38 /* PSTLayoutSubviewCenteredScrollView.m */,
 				785C582316D635E600196B38 /* PSTContentOffsetCenteredScrollView.h */,
@@ -195,7 +195,7 @@
 				7832D68416D60306006EAA5D /* PSTViewController.m in Sources */,
 				7832D69216D60327006EAA5D /* PSTCenteredScrollView.m in Sources */,
 				785C581F16D62AC300196B38 /* PSTLayoutSubviewCenteredScrollView.m in Sources */,
-				785C582216D62B2400196B38 /* PSTEdgeInsetCenteredScrollView.m in Sources */,
+				785C582216D62B2400196B38 /* PSTContentInsetCenteredScrollView.m in Sources */,
 				785C582516D635E700196B38 /* PSTContentOffsetCenteredScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

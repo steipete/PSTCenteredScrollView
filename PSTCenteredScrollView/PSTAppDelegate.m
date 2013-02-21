@@ -8,7 +8,7 @@
 
 #import "PSTAppDelegate.h"
 #import "PSTViewController.h"
-#import "PSTEdgeInsetCenteredScrollView.h"
+#import "PSTContentInsetCenteredScrollView.h"
 #import "PSTLayoutSubviewCenteredScrollView.h"
 #import "PSTContentOffsetCenteredScrollView.h"
 
@@ -20,7 +20,7 @@
 
     tabController.viewControllers = @[[[PSTViewController alloc] initWithScrollViewClass:PSTLayoutSubviewCenteredScrollView.class],
                                       [[PSTViewController alloc] initWithScrollViewClass:PSTContentOffsetCenteredScrollView.class],
-                                      [[PSTViewController alloc] initWithScrollViewClass:PSTEdgeInsetCenteredScrollView.class]];
+                                      [[PSTViewController alloc] initWithScrollViewClass:PSTContentInsetCenteredScrollView.class]];
 
     self.window.rootViewController = tabController;
     [self.window makeKeyAndVisible];

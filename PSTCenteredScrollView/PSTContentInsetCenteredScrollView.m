@@ -1,14 +1,14 @@
 //
-//  PSTEdgeInsetCenteredScrollView.m
+//  PSTContentInsetCenteredScrollView.m
 //  PSTCenteredScrollView
 //
 //  Created by Peter Steinberger on 2/21/13.
 //  Copyright (c) 2013 PSPDFKit. All rights reserved.
 //
 
-#import "PSTEdgeInsetCenteredScrollView.h"
+#import "PSTContentInsetCenteredScrollView.h"
 
-@implementation PSTEdgeInsetCenteredScrollView
+@implementation PSTContentInsetCenteredScrollView
 
 - (void)centerContent {
     CGFloat top = 0, left = 0;
