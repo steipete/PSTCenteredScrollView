@@ -21,6 +21,11 @@
     self.contentInset = UIEdgeInsetsMake(top, left, top, left);
 }
 
+- (void)didAddSubview:(UIView *)subview {
+    [super didAddSubview:subview];
+    [self centerContent];
+}
+
 - (void)scrollViewDidZoom:(__unused UIScrollView *)scrollView {
     [self centerContent];
 }
